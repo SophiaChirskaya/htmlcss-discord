@@ -21,13 +21,13 @@ body{
 }
 
 .logo{
-    height: 30px;
-    width: 20%;
+    width: 15%;
+    
     justify-content: center;
     text-align: center;
-    /* DEBUG */
-    background-color: darkgoldenrod;
-    border: 2px dashed black;   
+    background-image: url(./img/logo.svg);
+    background-size: cover;
+    
 }
 
 .menu-nav{
@@ -64,8 +64,10 @@ ul li{
 
 #jumbo{
     width: auto;
-    background-color: blue;
-    min-height: 400px;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+   
+    min-height: 600px;
     display: flex;
     justify-items:center;
     align-items: center;
